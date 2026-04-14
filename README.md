@@ -27,4 +27,5 @@ A realistic vehicle ignition resource for FiveM.
 - Includes version check in `server.lua`.
 
 ## License
-MIT
+
+MIT License © 2026 Realistic Scripts
