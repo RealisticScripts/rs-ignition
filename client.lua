@@ -9,9 +9,9 @@ local function Notify(message)
         return
     end
 
-    BeginTextCommandThefeedPost('STRING')
-    AddTextComponentSubstringPlayerName(message)
-    EndTextCommandThefeedPostTicker(false, false)
+    lib.notify({
+        description = message
+    })
 end
 
 local function IsPlayerDriver(vehicle, ped)

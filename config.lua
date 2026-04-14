@@ -3,7 +3,7 @@ Config = {}
 -- Debug logging in F8/console
 Config.Debug = false
 
--- Native GTA feed notifications
+-- ox_lib notifications
 Config.Notifications = true
 
 -- Engine toggle keybind
